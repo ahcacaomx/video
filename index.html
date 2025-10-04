@@ -3,10 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>Video Octubre Cancún</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      flex-direction: column;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    video {
+      max-width: 90%;
+      height: auto;
+      border: 3px solid #fff;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
   <h1>Video Octubre Cancún</h1>
-  <video width="720" controls>
+  <video width="720" controls autoplay loop muted>
     <source src="video octubre cancun.mp4" type="video/mp4">
     Tu navegador no soporta video en HTML5.
   </video>
