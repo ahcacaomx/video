@@ -2,33 +2,31 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Video Octubre Cancún</title>
+  <title>Video Publicitario Ah Cacao</title>
   <style>
-    body {
+    html, body {
       margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background: #111;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      flex-direction: column;
-    }
-    h1 {
-      margin-bottom: 20px;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background: #000;
+      overflow: hidden;
     }
     video {
-      max-width: 90%;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
       height: auto;
-      border: 3px solid #fff;
-      border-radius: 10px;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
     }
   </style>
 </head>
 <body>
-  <h1>Video Octubre Cancún</h1>
-  <video width="720" controls autoplay loop muted>
+  <video autoplay loop muted playsinline>
     <source src="video octubre cancun.mp4" type="video/mp4">
     Tu navegador no soporta video en HTML5.
   </video>
